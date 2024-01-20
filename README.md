@@ -1,5 +1,6 @@
 Belly Button Challenge
-Screenshot 2023-01-11 at 8 20 45 AM
+![image](https://github.com/deepikarapeti43/belly-button-challenge/assets/127686390/cdd5c788-92c5-4bc3-8389-3c6ec2bafc8b)
+
 
 Deployment
 Here is a link to the dashboard: https://jeremytallant.github.io/belly-button-challenge/
