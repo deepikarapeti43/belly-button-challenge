@@ -4,6 +4,7 @@ Belly Button Challenge
 
 Deployment
 Here is a link to the dashboard: https://jeremytallant.github.io/belly-button-challenge/
+
 Background
 In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.
 
@@ -12,27 +13,31 @@ The dataset reveals that a small handful of microbial species (also called opera
 Instructions
 Complete the following steps:
 
-Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
+1.Use the D3 library to read in samples.json from the URL https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json.
 
-Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+2.Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
 Use sample_values as the values for the bar chart.
 Use otu_ids as the labels for the bar chart.
 Use otu_labels as the hovertext for the chart.
-Screenshot 2023-01-10 at 11 13 39 AM
-Create a bubble chart that displays each sample.
+![image](https://github.com/deepikarapeti43/belly-button-challenge/assets/127686390/af66f3a7-03f2-4a83-aed6-5c5edd7ed992)
+
+3.Create a bubble chart that displays each sample.
 
 Use otu_ids for the x values.
 Use sample_values for the y values.
 Use sample_values for the marker size.
 Use otu_ids for the marker colors.
 Use otu_labels for the text values.
-Screenshot 2023-01-10 at 11 13 56 AM
+![image](https://github.com/deepikarapeti43/belly-button-challenge/assets/127686390/1efce9ea-6bb8-426f-a325-cdb716c3ccff)
+
+
 Display the sample metadata, i.e., an individual's demographic information.
 
 Display each key-value pair from the metadata JSON object somewhere on the page.
 
-Screenshot 2023-01-10 at 11 13 47 AM
+![image](https://github.com/deepikarapeti43/belly-button-challenge/assets/127686390/8d1da57c-f994-4b7c-a616-6385d9fbd617)
+
 
 Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard.
 
@@ -42,7 +47,8 @@ Advanced Challenge Assignment
 Adapt the Gauge Chart from https://plot.ly/javascript/gauge-charts/ to plot the weekly washing frequency of the individual.
 You will need to modify the example gauge code to account for values ranging from 0 through 9.
 Update the chart whenever a new sample is selected.
-Screenshot 2023-01-10 at 11 19 42 AM
+![image](https://github.com/deepikarapeti43/belly-button-challenge/assets/127686390/2b45bd5c-e75f-4c76-9898-a3574a5c6798)
+
 
 File Organization and Structure
 Located in the parent directory are three folders and the index.html file.
